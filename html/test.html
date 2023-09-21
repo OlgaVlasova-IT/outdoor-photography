@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Responsive Hero Slider With Bootstrap 4</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Indie+Flower&family=Cinzeldisplay=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="/css/test.css">
+</head>
+<body> 
+  <div class="container-fluid p-0">
+    <div id="carousel" class="carousel slide hero-slides d-flex flex-column justify-content-center" data-ride="carousel">
+      <ol class="carousel-indicators h-100">
+        <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column justify-content-between align-items-center py-5">
+            <header class="mb-5">
+              <div style="color:whitesmoke">
+                <h3 class="float-md-start mb-0"></h3> 
+                <nav class="nav nav-masthead justify-content-center float-md-end">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  <a class="nav-link" href="/html/portfolio.html">Portfolio</a>
+                  <a class="nav-link" href="#">Contact</a>
+                </nav>
+              </div>
+            </header>
+          
+            <main class="px-3 mt-5 d-flex flex-column justify-content-between align-items-center ">
+              <h1 class="fs-1" style="font-family: 'Cinzel', serif; color:whitesmoke " id="header">OLGA PHOTOGRAPHY</h1>
+              <p class="lead fw-bold" style="font-family: 'Cinzel', serif; color: whitesmoke " id="quote">“The  earth is art, the photographer is only a witness.”
+              <br> <span style="font-family: 'Cinzel', serif; "> – Yann Arthus-Bertrand</span></p></br></p>
+              <p class="lead" id="portfolioLink">
+                <a href="/html/portfolio.html" class="btn-lg fw-bold btn-custom fs-3" style="font-family: 'Cinzel', serif; " >Portfolio</a>
+              </p>
+            </main>
+          
+          <div class=" d-flex justify-content-center align-items-center ">
+        <li class="active" data-target="#carousel" data-slide-to="0"></li>
+        <li data-target="#carousel" data-slide-to="1"></li>
+        <li data-target="#carousel" data-slide-to="2"></li>
+    </div>
+        
+  </div>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active boat">
+          <!-- <div class="container h-100 d-md-block">
+            <div class="row align-items-center h-100">
+              <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+                <div class="caption ">
+                  <h2 class="animated ">Boat Excursions</h2>
+                  <p class="animated ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tristique nisl vitae luctus sollicitudin. Fusce consectetur sem eget dui tristique, ac posuere arcu varius.</p>
+                  <a class="animated  btn delicious-btn" href="#">Learn more</a>
+                </div>
+              </div>
+            </div>
+          </div> -->
+        </div>
+        <div class="carousel-item sea">
+          <!-- <div class="container h-100 d-md-block">
+            <div class="row align-items-center h-100">
+              <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+                <div class="caption animated fadeIn">
+                  <h2 class="animated fadeInLeft">Discover the canyon by the sea</h2>
+                  <p class="animated fadeInRight">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tristique nisl vitae luctus sollicitudin. Fusce consectetur sem eget dui tristique, ac posuere arcu varius.</p>
+                  <a class="animated fadeInUp btn delicious-btn" href="#">Learn more</a>
+                </div>
+              </div>
+            </div>
+          </div> -->
+        </div>
+        <div class="carousel-item river">
+          <!-- <div class="container h-100 d-md-block">
+            <div class="row align-items-center h-100">
+              <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+                <div class="caption animated fadeIn">
+                  <h2 class="animated fadeInLeft">Explore the river valley</h2>
+                  <p class="animated fadeInRight">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tristique nisl vitae luctus sollicitudin. Fusce consectetur sem eget dui tristique, ac posuere arcu varius.</p>
+                  <a class="animated fadeInUp btn delicious-btn" href="#">Learn more</a>
+                </div>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script type="text/javascript" scr="https://cdnjs.cloudflare.com/ajax/libs/animateCSS/1.2.2/jquery.animatecss.min.js"></script>
+ 
+</body>
+</html>
+
