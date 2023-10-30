@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200&display=swap');
 *{
-  margin:0;
-  padding:0;
+ 
   box-sizing:border-box;
 }
 body {
@@ -11,7 +10,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Cinzel', serif;
+  color:#463030
 }  
  #carousel .carousel-item.boat{
   background-image:url("/img/cover2OrangeRedsSkyCloud.jpg");
@@ -54,7 +54,7 @@ body {
   animation-duration: 1s;
   animation-delay: 2.4s;
 }
-.delicious-btn{
+/* .delicious-btn{
   display: inline-block;
   min-width:160px;
   height:60px;
@@ -79,7 +79,7 @@ body {
   color:#fff;
   background:#1c8314;
   border-color:#40ba37
-}
+} */
 
 
 .cover-container {
@@ -89,14 +89,15 @@ body {
 .nav-masthead .nav-link {
     padding: .25rem 0;
     font-weight: 700;
-    color: rgba(255, 255, 255, .5);
+    color: whitesmoke;
     background-color: transparent;
     border-bottom: .25rem solid transparent;
   }
   
   .nav-masthead .nav-link:hover,
   .nav-masthead .nav-link:focus {
-    border-bottom-color: rgba(255, 255, 255, .25);
+    border-bottom-color: #463030;
+    color: #463030;
   }
   
   .nav-masthead .nav-link + .nav-link {
@@ -110,24 +111,25 @@ body {
   .btn-custom {
     background: transparent;
     border-radius: 10px;
-    border: 2px solid whitesmoke;
+    /* border: 2px solid whitesmoke; */
     color: whitesmoke
   }
   
   .btn-custom:hover, .btn-pcustom:focus, .btn-custom:active, .btn-custom.active {
     background-color: transparent;
-    color: #FF836D;
-    border: 2px solid #FF836D;
+    color: #463030;
+    border: 2px solid #463030;
+    font-weight: 700;
   }
   a {
   text-decoration: none;
-  color:darkblue
+  color:#463030
   }
   
   #viewmore {
     background-color: transparent;
-    color: #FF836D;
-    border: 2px solid darkblue;
+    color: #463030;
+    border: 2px solid #463030;
     border-radius: 10px;
 
   }
