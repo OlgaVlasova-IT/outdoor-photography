@@ -14,13 +14,13 @@ body {
   font-family: 'Poppins', sans-serif;
 }  
 #carousel .carousel-item.boat{
-  background-image:url("/img/5\ \(17\).JPG");
+  background-image:url("images/bg-1.jpg");
 }
 #carousel .carousel-item.sea{
-  background-image:url("/img/5\ \(16\).JPG");
+  background-image:url("images/bg-2.jpg");
 }
 #carousel .carousel-item.river{
-  background-image:url("/img/5\ \(6\).jpg");
+  background-image:url("images/bg-3.jpg");
 }
 #carousel .carousel-item{
   height:100vh;
@@ -39,20 +39,20 @@ body {
   padding:40px;
   color:white;
   animation-duration: 1s;
-  animation-delay: 2s;
+  /* animation-delay: 2s; */
 }
 #carousel .caption h2{
   animation-duration: 1s;
-  animation-delay: 2s;
+  /* animation-delay: 2s; */
 }
 #carousel .caption p{
   animation-duration: 1s;
-  animation-delay: 2.2s;
+  /* animation-delay: 2.2s; */
 }
 
 #carousel .caption a{
   animation-duration: 1s;
-  animation-delay: 2.4s;
+  /* animation-delay: 2.4s; */
 }
 .delicious-btn{
   display: inline-block;
