@@ -18,7 +18,7 @@
 </head>
 
 <body>
-  <div class="w-100 d-flex flex-column justify-content-center align-items-center p-0 m-0">
+  <div class="w-100 d-flex flex-column justify-content-center align-items-center p-0 m-0" id="top">
     <div class="container-fluid p-0">
       <div id="carousel" class="carousel slide d-flex flex-column justify-content-center" data-bs-ride="carousel">
         <ol class="carousel-indicators h-100">
@@ -28,7 +28,7 @@
               <div style="color:whitesmoke">
                 <h3 class="float-md-start mb-0"></h3>
                 <nav class="nav nav-masthead justify-content-center float-md-end">
-                  <a class="nav-link active" aria-current="/index.html" href="#">home</a>
+                  <a class="nav-link active" aria-current="/index.html" href="/index.html">home</a>
                   <a class="nav-link" href="/portofolio.html">Portfolio</a>
                   <a class="nav-link" href="#">contact</a>
                 </nav>
@@ -62,7 +62,7 @@
           </div>
             <div class="mb-6">
               <p class="lead my-6" id="portfolioLink">
-                <a href="/portofolio.html" class="btn-lg btn-custom fs-3 fw-5" style="color:whitesmoke"
+                <a href="/portofolio.html" class="btn-lg btn-custom fs-3 fw-5" 
                   >Portfolio</a>
               </p>
               </div> 
@@ -149,7 +149,7 @@ align-items-center">
 
 
     <div class="d-flex flex-column justify-content-center align-items-center w-100 h-100 inline-photo show-on-scroll" style="background-color: #463030;">
-     <h1>Contact me</h1>
+     <h1 class="p-3 m-3"style="color:whitesmoke">Contact me</h1>
       <form class="d-flex flex-column justify-content-center align-items-center third-of-width"
       action="https://formspree.io/f/xeqbnowo"
        method="POST"
@@ -173,7 +173,20 @@ align-items-center">
              </form>
 
     </div>
+
+    <footer class="text-muted py-3 bg-dark  w-100">
+      <div class="container font-color">
+        <p class="float-end mb-1">
+          <a href="#top" style="color:whitesmoke">Back to top</a>
+        </p>
+        <p class="mb-1 red-color">©Olga Vlasova - All Rights Reserved </p>
+  
+  
+      </div>
+    </footer>
   </div>
+
+
  <!--Gsap animation-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

@@ -136,12 +136,14 @@ body {
     color: #463030;
     border: 2px solid #463030;
     border-radius: 10px;
+
   }
 
   #viewmore:hover, #view-more:focus, #view-more:active, #view-more.active {
-    background-color: transparent;
-    color: darkgray;
-    border: 2px solid darkgray;
+    background-color: #463030;
+    color: whitesmoke;
+    border: 2px solid #463030;
+    font-weight: 900;
   }
 
  .third-of-width {
@@ -157,14 +159,14 @@ body {
   1px -1px 0 #463030;
 }
 
-#portfolioLink {
+/* #portfolioLink {
   text-shadow:
   1px 1px 1px #463030,
   -1px 1px 1px #463030,
   -1px -1px 0 #463030,
   1px -1px 0 #463030;
 
-}
+} */
 .inline-photo {
   /* border: 1em solid #fff;
   border-bottom: 4em solid #fff;
