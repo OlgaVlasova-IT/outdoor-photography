@@ -126,6 +126,14 @@ body {
  padding: 0;
 
 }
+#header {
+
+  text-shadow:
+  1px 1px 1px #463030,
+  -1px 1px 1px #463030,
+  -1px -1px 0 #463030,
+  1px -1px 0 #463030;
+}
 
 #carousel .carousel-item{
   height:100vh;
