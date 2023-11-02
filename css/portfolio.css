@@ -221,3 +221,11 @@ body {
   .third-of-width {
     width: 35%
   }
+
+  @media (max-width: 768px) {
+  
+    .third-of-width{
+      width: 100%
+    }
+   
+  }
