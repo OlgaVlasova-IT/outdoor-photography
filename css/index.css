@@ -96,8 +96,9 @@ body {
   
   .nav-masthead .nav-link:hover,
   .nav-masthead .nav-link:focus {
-    border-bottom-color: #463030;
-    color: #463030;
+    /* border-bottom-color: #463030;
+    color: #463030; */
+    font-weight: 900;
   }
   
   .nav-masthead .nav-link + .nav-link {
@@ -140,7 +141,7 @@ body {
   }
 
   #viewmore:hover, #view-more:focus, #view-more:active, #view-more.active {
-    background-color: #463030;
+    /* background-color: #463030; */
     color: whitesmoke;
     border: 2px solid #463030;
     font-weight: 900;

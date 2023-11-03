@@ -13,10 +13,10 @@ body {
   font-family: 'Cinzel', serif;
   color:#463030
 }  
- #carousel .carousel-item.boat{
+ .boat{
   background-image:url("/img/seaFogCover-light.jpg");
 } 
-#carousel .carousel-item.sea{
+/* #carousel .carousel-item.sea{
   background-image:url("/img/5\ \(14\)-light.jpg");
 }
 #carousel .carousel-item.river{
@@ -33,28 +33,28 @@ body {
   transition:-webkit-transform 2s ease;
   transition:transform 2s ease;
   transition:transform 2s ease, -webkit-transform 2s ease;
-}
-#carousel .carousel-item .caption{
+} */
+/* #carousel .carousel-item .caption{
   background:rgba(0,0,0,0.5);
   padding:40px;
   color:white;
   animation-duration: 1s;
-  /* animation-delay: 2s; */
-}
-#carousel .caption h2{
+  animation-delay: 2s; */
+/* } */
+/* #carousel .caption h2{
   animation-duration: 1s;
   /* animation-delay: 2s; */
-}
-#carousel .caption p{
+/* } */
+/* #carousel .caption p{
   animation-duration: 1s;
   /* animation-delay: 2.2s;*/
-}
+/* } */
 
-#carousel .caption a{
+/* #carousel .caption a{
   animation-duration: 1s;
   /* animation-delay: 2.4s; */
-}
-.delicious-btn{
+/* } */
+/* .delicious-btn{
   display: inline-block;
   min-width:160px;
   height:60px;
@@ -70,8 +70,8 @@ body {
   transition-duration: 500ms;
   text-transform: capitalize;
   /* background:#40ba37; */
-}
-.delicious-btn:hover,
+/* } */
+/* .delicious-btn:hover,
 .delicious-btn:active,
 .delicious-btn:focus{
   font-size:16px;
@@ -79,7 +79,7 @@ body {
   color:#fff;
   /* background:#1c8314;
   border-color:#40ba37 */
-}
+/* }   */ 
 
 
 .cover-container {
@@ -96,8 +96,9 @@ body {
   
   .nav-masthead .nav-link:hover,
   .nav-masthead .nav-link:focus {
-    border-bottom-color: #463030;
-    color: #463030;
+    /* border-bottom-color: #463030;
+    color: #463030; */
+    font-weight: 900;
   }
   
   .nav-masthead .nav-link + .nav-link {
@@ -108,12 +109,12 @@ body {
     color: #fff;
     border-bottom-color: #fff;
   }
-  .btn-custom {
+  /* .btn-custom {
     background: transparent;
     border-radius: 10px;
     /* border: 2px solid whitesmoke; */
-    color: whitesmoke
-  }
+    /* color: whitesmoke
+  } */
   
   
   .btn-custom:hover, .btn-pcustom:focus, .btn-custom:active, .btn-custom.active {
@@ -121,7 +122,7 @@ body {
     color: #463030;
     border: 2px solid #463030;
     font-weight: 700;
-  }
+  } */
   #submitForm :hover, #submitForm:focus, #submitForm:active, #submitForm.active {
     background-color: transparent;
     font-weight: 700;
@@ -131,7 +132,7 @@ body {
   color:#463030
   }
   
-  #viewmore {
+  /* #viewmore {
     background-color: transparent;
     color: #463030;
     border: 2px solid #463030;
@@ -144,7 +145,7 @@ body {
     color: whitesmoke;
     border: 2px solid #463030;
     font-weight: 900;
-  }
+  } */
 
  .third-of-width {
   width: 35%;
