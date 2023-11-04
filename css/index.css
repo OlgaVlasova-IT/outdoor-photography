@@ -14,10 +14,10 @@ body {
   color:#463030
 }  
  #carousel .carousel-item.boat{
-  background-image:url("/img/cover2OrangeRedsSkyCloud-lght.jpg");
+  background-image:url("/img/5\ \(14\)-light.jpg");
 } 
 #carousel .carousel-item.sea{
-  background-image:url("/img/5\ \(14\)-light.jpg");
+  background-image:url("/img/cover2OrangeRedsSkyCloud-lght.jpg");
 }
 #carousel .carousel-item.river{
   background-image:url("/img/seaFogCover-light.jpg");
@@ -152,13 +152,13 @@ body {
  }
 
 
- #header {
+ /* #header {
   text-shadow:
   1px 1px 1px #463030,
   -1px 1px 1px #463030,
   -1px -1px 0 #463030,
   1px -1px 0 #463030;
-}
+} */
 
 /* #portfolioLink {
   text-shadow:
