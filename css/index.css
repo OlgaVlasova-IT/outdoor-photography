@@ -112,7 +112,7 @@ body {
   .btn-custom {
     background: transparent;
     border-radius: 10px;
-    /* border: 2px solid whitesmoke; */
+    border: 2px solid whitesmoke;
     color: whitesmoke
   }
   
