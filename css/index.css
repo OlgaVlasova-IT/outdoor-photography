@@ -93,14 +93,17 @@ body {
     /* font-weight: 700; */
     color: whitesmoke;
     background-color: transparent;
-    border-bottom: .25rem solid transparent;
+    border-bottom: .15rem solid transparent;
   }
   
   .nav-masthead .nav-link:hover,
   .nav-masthead .nav-link:focus {
+    border-bottom-color: rgba(255, 255, 255, .25);
+ 
+
     /* border-bottom-color: #463030;
     color: #463030; */
-    font-weight: 900;
+    /* font-weight: 900; */
   }
   
   .nav-masthead .nav-link + .nav-link {
