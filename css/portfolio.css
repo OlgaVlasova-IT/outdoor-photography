@@ -15,7 +15,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'Cinzel', serif;
+  font-family: "Montserrat", sans-serif;
+  /* font-family: 'Cinzel', serif; */
   }
 
   #carousel .carousel-item.boat{
@@ -30,7 +31,7 @@
   
   .nav-masthead  {
     padding: .25rem 0;
-    font-weight: 700;
+    /* font-weight: 700; */
     color: rgba(255, 255, 255, .5);
     background-color: transparent;
     border-bottom: .25rem solid transparent;
@@ -38,7 +39,7 @@
   
   .nav-link {
     padding: .25rem 0;
-    font-weight: 700;
+    /* font-weight: 700; */
     color: rgba(255, 255, 255, .5);
     background-color: transparent;
     border-bottom: .25rem solid transparent;
@@ -72,7 +73,7 @@
   
   .nav-masthead .nav-link {
     padding: .25rem 0;
-    font-weight: 700;
+    /* font-weight: 700; */
     color: whitesmoke;
     background-color: transparent;
     border-bottom: .25rem solid transparent;
@@ -214,6 +215,32 @@ body {
   .third-of-width {
     width: 35%
   }
+
+  #exampleFormControlInput1 {
+    background-color: #463030;
+    border: transparent;
+    border-radius: 0;
+    border-bottom: 1px solid rgb(149, 148, 148);
+    color:whitesmoke;
+  }
+  
+  #exampleFormControlInput2
+  {
+    background-color: #463030;
+    border: transparent;
+    border-radius: 0;
+    border-bottom: 1px solid rgb(149, 148, 148);
+    color: whitesmoke;
+  }
+  
+  #exampleFormControlTextarea1 {
+    background-color: #463030;
+    border: transparent;
+    border-radius: 0;
+    border-bottom: 1px solid rgb(149, 148, 148);
+    color: whitesmoke;
+  }
+
 
   @media (max-width: 768px) {
   
